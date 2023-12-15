@@ -81,11 +81,11 @@ const Layout = styled.div`
     padding: 0 5px;
   }
 `;
-
+//Map the user state from the Redux store to props
 const mapStateToProps = (state) => {
   return {
     user: state.userState.user,
   };
 };
-
+//connecting the component to the Redux store
 export default connect(mapStateToProps)(Home);
