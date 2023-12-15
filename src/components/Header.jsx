@@ -249,7 +249,7 @@ const User = styled(NavList)`
 const Work = styled(User)`
   border-left: 1px solid rgba(0, 0, 0, 0.08);
 `;
-
+//Connect the component to Redux state and actions
 const mapStateToProps = (state) => {
   return {
     user: state.userState.user,
