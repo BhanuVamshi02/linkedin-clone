@@ -11,7 +11,7 @@ const Login = (props) => {
         {props.user && <Navigate to="/home" />}
         <Nav>
           <a href="/">
-            <img src="/images/linkedin-mini.png" alt="" />
+            <img src="./images/linkedin-mini.png" alt="" />
           </a>
           <div>
             <Join>Join now</Join>
