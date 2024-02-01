@@ -11,7 +11,7 @@ const Login = (props) => {
         {props.user && <Navigate to="/home" />}
         <Nav>
           <a href="/">
-            <img src="/images/login-logo.svg" alt="" />
+            <img src="/images/linkedin-mini.png" alt="" />
           </a>
           <div>
             <Join>Join now</Join>
@@ -67,6 +67,9 @@ const Join = styled.a`
   border-radius: 50px;
   color: rgba(0, 0, 0, 0.6);
   margin-right: 12px;
+  @media (max-width: 435px) {
+    display: flex;
+  }
   &:hover {
     background-color: rgba(0, 0, 0, 0.08);
     color: rgba(0, 0, 0, 0.9);
